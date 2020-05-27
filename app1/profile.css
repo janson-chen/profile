@@ -1,0 +1,67 @@
+html, body {
+    font-family: "Microsoft YaHei UI Light";
+    font-size: 14px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #a1a1a1;
+    padding: 20px 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.info-title {
+    line-height: 2;
+}
+
+.portrait {
+    width: 80px;
+    height: 120px;
+    background: url("./portait.png") center no-repeat;
+    background-size: contain;
+}
+
+.info {
+    display: flex;
+}
+
+.base-info, .base-area-info {
+    display: flex;
+    flex: 1;
+    margin-left: 30px;
+    align-items: flex-end;
+}
+
+.col {
+    flex: 1;
+    text-align: left;
+}
+
+.col > div {
+    line-height: 3;
+}
+
+.basic-info-area {
+    border-top: 1px solid #a1a1a1;
+    margin: 30px auto;
+    padding: 20px auto;
+}
+
+.base-area-info {
+    padding-left: 80px;
+}
+
+.project {
+    margin: 30px;
+}
+
+.date-info {
+    display: flex;
+    justify-content: flex-end;
+}
